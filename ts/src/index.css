@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.head{
+  display: flex;
+ justify-content: space-between;
+ margin: 20px; 
+ background-color:#5ebcbb;
+font-size: 25px;
+ padding: 20px;
+}
+.logo{
+border: 2px black solid;
+padding: 8px;
+color: #f8f8f8 ;
+background-color:#3498db;
+font-family: 'Courier New', Courier, monospace;
+font-size: 28px;
+font-weight: 500;
+}
+.navLink{
+  text-decoration: none;
+  color: black;
+  text-transform:capitalize;
+  margin: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navLink:hover{
+  text-transform: uppercase;
+  text-decoration:underline;
+  color: aliceblue;
+}
+.home{
+margin: 10px;
+text-align: center;
+}
+
+.productWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+ width: 200px;
+ 
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card h5 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card-button {
+  display: inline-block;
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background-color: #217dbb;
+}
+.cartWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center; /* Add this line */
+  text-align: center; /* Add this line */
+}
+
+.cartCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cartCard img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.cartCard h5 {
+  margin-bottom: 5px;
+}
+
+.btn {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.Message{
+  text-align:'center';
+  font-size:'18px';
+  color: 'red';
+  font-weight: 'bold';
+  margin-top: '20px';
+  padding: '10px';
+  border: '2px dashed red';
+  border-radius: '5px';
+}
